@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:layout_margin="100dp"
+                android:src="@drawable/logo2" />
+
+            <EditText
+                android:id="@+id/iD"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:ems="10"
+                android:hint="ID"
+                android:fontFamily="@font/cafe24surroundair"
+                android:textColor="@color/black"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Password"
+                android:fontFamily="@font/cafe24surroundair"
+                android:textColor="@color/black"
+                android:inputType="textPassword" />
+
+
+            <Button
+                android:onClick="onClick"
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="Login"
+                android:fontFamily="@font/cafe24surround"
+                android:textColor="@color/white"
+                android:backgroundTint="#11542d"/>
+
+            <Button
+                android:id="@+id/signupButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Join"
+
+                android:fontFamily="@font/cafe24surround"
+                android:textColor="@color/white"
+                android:backgroundTint="#11542d"/>
+
+</LinearLayout>

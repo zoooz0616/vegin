@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type">
+        <item>비건</item>
+        <item>락토 베지테리언</item>
+        <item>오보 베지테리언</item>
+        <item>락토 오보 베지테리언</item>
+        <item>페스코 베지테리언</item>
+        <item>폴로 베지테리언</item>
+        <item>플렉시테리언</item>
+    </string-array>
+</resources>

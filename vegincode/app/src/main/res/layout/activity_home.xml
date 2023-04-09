@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints">
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        app:mcv_selectionColor="#11542d"
+        app:mcv_showOtherDates="all"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/memo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:fontFamily="@font/cafe24surroundair"
+        android:textColor="@color/black"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="저장"
+        android:fontFamily="@font/cafe24surround"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:backgroundTint="#11542d"/>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+        <Button
+            android:id="@+id/updatebutton"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="수정"
+            android:fontFamily="@font/cafe24surround"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#11542d"
+            />
+
+        <Button
+            android:id="@+id/deletebutton"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="삭제"
+            android:fontFamily="@font/cafe24surround"
+            android:textColor="@color/white"
+            android:backgroundTint="#11542d"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

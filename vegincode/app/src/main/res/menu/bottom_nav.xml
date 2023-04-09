@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_unselect"
+        android:title="home" />
+
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/map_unselect"
+        android:title="map"/>
+
+    <item
+        android:id="@+id/type"
+        android:icon="@drawable/type_unselect"
+        android:title="type"/>
+
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/user_unselect"
+        android:title="user"/>
+
+</menu>
