@@ -1,0 +1,2 @@
+rootProject.name = "Vegan"
+include ':app'
